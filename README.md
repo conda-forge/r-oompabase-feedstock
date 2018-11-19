@@ -14,9 +14,8 @@ Summary: Provides the class unions that must be preloaded in order for the basic
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-oompabase-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-oompabase-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-oompabase-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-oompabase-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-oompabase-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-oompabase-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-oompabase-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-oompabase-feedstock)
 
 Current release info
 ====================
