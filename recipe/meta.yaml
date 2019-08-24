@@ -1,4 +1,4 @@
-{% set version = "3.2.8" %}
+{% set version = "3.2.9" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/oompaBase_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/oompaBase/oompaBase_{{ version }}.tar.gz
-  sha256: 438c56474cd77f9d913ab62b3db54e1133a212cca444439f5fd658306d7e5970
+  sha256: 14ca2b8e713a6a7ce13758f7f5c183dbc4fdfedc4f1244ca31bbdadf8a16bcb2
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
