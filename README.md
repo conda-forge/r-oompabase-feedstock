@@ -1,11 +1,11 @@
-About r-oompabase
-=================
+About r-oompabase-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-oompabase-feedstock/blob/main/LICENSE.txt)
 
 Home: http://oompa.r-forge.r-project.org/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-oompabase-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides the class unions that must be preloaded in order for the basic tools in the OOMPA (Object-Oriented  Microarray and Proteomics Analysis) project to be defined and loaded. It also includes vectorized operations for row-by-row means, variances, and t-tests. Finally, it provides new color schemes. Details on the packages in the OOMPA project can be found at <http://oompa.r-forge.r-project.org/>.
 
