@@ -17,6 +17,10 @@ build:
   rpaths:
     - lib/R/lib/
     - lib/
+  missing_dso_whitelist:
+    - '*/R.dll'        # [win]
+    - '*/Rblas.dll'    # [win]
+    - '*/Rlapack.dll'  # [win]
 
 requirements:
   build:
@@ -39,7 +43,8 @@ about:
   summary: Provides the class unions that must be preloaded in order for the basic tools in the OOMPA (Object-Oriented  Microarray and Proteomics Analysis) project to be defined and loaded. It also includes vectorized operations for row-by-row means, variances, and t-tests. Finally, it provides new color schemes. Details
     on the packages in the OOMPA project can be found at <http://oompa.r-forge.r-project.org/>.
   license_family: APACHE
-  license_file: LICENSE-2.0.txt
+  license_file:
+    - LICENSE-2.0.txt
 
 extra:
   recipe-maintainers:
