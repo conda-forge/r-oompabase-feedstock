@@ -1,4 +1,4 @@
-{% set version = "3.2.11" %}
+{% set version = "3.2.12" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/oompaBase_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/oompaBase/oompaBase_{{ version }}.tar.gz
-  sha256: c2680b3b5a165bde0b64240a95dde41d712869875421919c7e7f1a4be5574935
+  sha256: 615921754cb186928d2aa072a72114fb6c8826c51500d077cc8338188897462b
 
 build:
   number: 0
@@ -40,8 +40,8 @@ test:
 about:
   home: http://oompa.r-forge.r-project.org/
   license: Apache-2.0
-  summary: Provides the class unions that must be preloaded in order for the basic tools in the OOMPA (Object-Oriented  Microarray and Proteomics Analysis) project to be defined and loaded. It also includes vectorized operations for row-by-row means, variances, and t-tests. Finally, it provides new color schemes. Details
-    on the packages in the OOMPA project can be found at <http://oompa.r-forge.r-project.org/>.
+  summary: Provides the class unions that must be preloaded in order for the basic tools in the OOMPA (Object-Oriented  Microarray and Proteomics Analysis) project to be defined and loaded. It also includes vectorized operations for row-by-row means, variances, and t-tests. Finally, it provides new color schemes. 
+    Details on the packages in the OOMPA project can be found at <http://oompa.r-forge.r-project.org/>.
   license_family: APACHE
   license_file:
     - LICENSE-2.0.txt
